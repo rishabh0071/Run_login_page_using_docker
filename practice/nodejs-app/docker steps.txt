@@ -1,0 +1,4 @@
+after exerything done
+
+create docker image from dockerfile -> docker build -t web .
+create container from image with port mapping  ->  docker run -d -p 8282:8080 web
